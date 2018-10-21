@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    block-size: inherit;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: darkgrey;
+}
+
+.menu {
+    text-align: center;
+    padding: 0 164;
+}
+
+
+.menu_item {
+    display: inline-block;
+    text-transform: uppercase; 
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.menu_item a {
+    text-decoration: none;
+}
+
+.menu_item :hover,
+.menu_item :focus {
+    color: #03a9f4;
+}
+
+.content_list {
+    font-size: 0;
+}
+
+.content_item {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    width: 420px;
+    margin-right: 60px;
+}
+
+.img_comment {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.article_head {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+
+.content_item:nth-child(2n) {
+    margin-right: 0px;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+}
