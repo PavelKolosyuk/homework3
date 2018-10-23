@@ -96,7 +96,7 @@ html {
     margin-bottom: 70px;
 }
 
-#button-load_more {
+.button-load_more {
     margin: 0 auto;
     height: 58px;
     width: 162px;
@@ -108,7 +108,10 @@ html {
     border: solid 1px #626262;
 }
 
-#button-load_more:hover {
+.button-load_more:hover,
+.button-load_more:focus {
     cursor: pointer;
+    background: gray;
+    color: white
 }
   
