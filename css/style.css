@@ -26,21 +26,22 @@ html {
 
 .menu_item {
     display: inline-block;
+    width: 143px;
  }
 
 .menu_item a {
-    display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 24px;
     font-size: 14px;
     font-family: 'Playfair Display', serif;
-    width: 143px;
     color: #626262;
  }
 
-.menu_item :hover,
-.menu_item :focus {
+.menu_item a:hover {
+    color: #03a9f4;
+ }
+ .menu_item a:focus {
     color: #03a9f4;
  }
 
@@ -89,21 +90,6 @@ html {
     font-family: 'Playfair Display', serif;
  }
 
- .images {
-    opacity: 0.7;
-    transition: 1s;
-    -moz-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
-    -webkit-transition: all 1s ease-out;
- }
- 
- .images:hover {
-    opacity: 1;
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
- }
-
 .buttons {
     text-align: center;
     padding-top: 54px;
@@ -117,16 +103,6 @@ html {
     color: #626262;
     font-family: 'Playfair Display', serif;
     line-height: 24px;
-    background: white;
+    background: #fff;
     border: solid 1px #626262;
-    opacity: 1;
-    transition: 0.5s;
- }
-
-.button-load_more:hover,
-.button-load_more:focus {
-    cursor: pointer;
-    background: gray;
-    color: white;
-    opacity: 1;
  }
